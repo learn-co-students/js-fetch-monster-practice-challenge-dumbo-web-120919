@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentPage = 1;
 
     /*** EVENT LISTENERS ***/
-  monsterForm.addEventListener("submit", handleCreateMonster);
+  monsterForm.addEventListener("submit", handleCreateMonster)
   backButton.addEventListener("click", handleBackButtonNavigation);
   forwardButton.addEventListener("click", handleForwardButtonNavigation);
 
